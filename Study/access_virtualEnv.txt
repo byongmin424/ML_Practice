@@ -1,0 +1,10 @@
+1. venv (Python 표준 라이브러리에 포함된 도구)
+
+	•	가상 환경 확인하기: venv는 디렉토리 구조를 통해 가상 환경을 확인합니다. 특정 디렉토리에 가상 환경이 설정되어 있는지 확인하려면, 해당 디렉토리에 bin, include, lib 디렉토리가 있는지 확인합니다.
+	•	가상 환경 접속하기:
+	•	Linux/macOS: source /path/to/venv/bin/activate
+    •	Windows: \path\to\virtualenv\Scripts\activate
+
+2. conda (Anaconda 또는 Miniconda 사용 시)
+	•	가상 환경 목록 확인하기: conda env list
+    •	가상 환경 접속하기: conda activate env_name
